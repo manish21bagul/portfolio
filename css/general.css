@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary : #323639;
+    --secondary :#1971c2;
+    --white:#fff;
+}
+html{
+    /* font-size:10px ;
+    10px/16px = 0.625 = 62.5%
+    percentage of user's browser font-size setting   
+    */
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--primary);
+    background-color: #ededed;
+    position: relative;
+}
+.container{
+    width: 114rem;
+    margin: 0 auto;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

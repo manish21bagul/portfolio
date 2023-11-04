@@ -1,0 +1,149 @@
+/* Header */
+.header {
+    background-color: var(--white);
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.35);
+    height: 5.8rem;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 0;
+
+}
+
+/***********************************/
+/* NAVIGATION */
+/***********************************/
+.logo {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--primary);
+
+}
+
+.social-icon {
+    width: 2rem;
+    height: 2rem;
+    color: var(--primary);
+}
+
+.nav-list,
+.nav-social-list {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-social-list {
+    gap: 1.2rem
+}
+
+.nav-link:link,
+.nav-link:visited {
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--primary);
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    display: block;
+    padding: 0.5rem 0;
+    transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: var(--secondary);
+    border-bottom: 2px solid currentColor;
+}
+
+.active {
+    /* Check this code later */
+    color: var(--secondary) !important;
+    border-bottom: 2px solid currentColor !important;
+}
+
+/***********************************/
+/* INTRODUCTION SECTION */
+/***********************************/
+.section-intro {
+    background-image: linear-gradient(to right bottom, rgba(50, 54, 57, 0.7), rgba(15, 16, 20, 1)), url(../images/portfolio_img.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.margin-top-auto {
+    margin-top: auto;
+}
+
+.intro-content {
+    color: var(--white);
+    text-align: center;
+}
+
+.intro-msg {
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+}
+
+.intro-designation {
+    font-size: 6.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+}
+
+.intro-location {
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--secondary);
+    padding: 1.6rem 3.2rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #0258a8;
+}
+
+.intro-btn {
+    display: block;
+    padding: 1.6rem
+}
+
+.intro-icon {
+    color: var(--white);
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--white);
+    align-items: center;
+}
