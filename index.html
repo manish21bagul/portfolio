@@ -9,12 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 </head>
 
 <body>
+    <!-- HEADER -->
     <header class="header">
         <div class="container header-content">
             <a href="#" class="logo">Manish</a>
@@ -52,24 +54,505 @@
         </div>
     </header>
     <main>
-    <section class="section-intro">
-       <div class="container intro">
-                    <div class="intro-content margin-top-auto">
-                        <p class="intro-msg">Hi, I'm a </p>
-                        <p class="intro-designation">Front end Developer</p>
-                        <p class="intro-location">based in Mumbai, Maharashatra
+        <section class="section-intro">
+            <div class="container intro">
+                <div class="intro-content margin-top-auto">
+                    <p class="intro-msg">Hi, I'm a </p>
+                    <p class="intro-designation">Front end Developer</p>
+                    <p class="intro-location">based in Mumbai, Maharashatra
+                    </p>
+                    <a href="#" class="btn">
+                        View My Works
+                    </a>
+                </div>
+                <a href="#" class="intro-btn margin-top-auto"><ion-icon name="arrow-down-outline"
+                        class="intro-icon"></ion-icon></a>
+            </div>
+        </section>
+        <!-- ABOUT ME -->
+        <section class="section-about-me">
+            <div class="container">
+                <div class="heading-container">
+                    <h3 class="primary-heading margin-bottom-12">About Me</h3>
+                    <h2 class="secondary-heading">Know Me More</h2>
+                </div>
+                <div class="about-me-content">
+                    <div class="am-grid-col1">
+                        <p class="am-intro margin-bottom-12">
+                            Hi, I'm
+                            <strong class="am-name">Manish Bagul</strong>
                         </p>
-                        <a href="#" class="btn">
-                            View My Works
-                        </a>
+                        <p class="am-content">
+                            I'm a front end developer with a passion for front design. I enjoy developing simple, clean
+                            and slick websites that provides real value to the end user.Thousands of clients have
+                            procured exceptional results while working with me.
+                            Delivery work within time and budget which meets client's requirements is our moto.
+                        </p>
                     </div>
-                <a href="#" class="intro-btn margin-top-auto"><ion-icon name="arrow-down-outline" class="intro-icon"></ion-icon></a>
+                    <div class="text-center am-grid-col2 experiance-container">
+                        <p class="am-years">12</p>
+                        <p class="am-experiance">Years of <strong>Experiance</strong></p>
+                    </div>
+                    <div>
+                        <p class="am-col1 margin-bottom-8">Name:</p>
+                        <p class="am-col2">Manish Bagul</p>
+                    </div>
+                    <div>
+                        <p class="am-col1 margin-bottom-8">Email:</p>
+                        <p class="am-col2">manishwebdev@gmail.com</p>
+                    </div>
+                    <div>
+                        <p class="am-col1 margin-bottom-8">Date of birth:</p>
+                        <p class="am-col2">21 October, 1984</p>
+                    </div>
+                    <div>
+                        <p class="am-col1 margin-bottom-8">From:</p>
+                        <p class="am-col2">Mumbai, Maharashtra</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- What I Do? -->
+        <section class="section-what-i-do">
+            <div class="container">
+
+                <div class="heading-container">
+                    <h3 class="primary-heading margin-bottom-12">What I Do?</h3>
+                    <h2 class="secondary-heading">How I can help your next project</h2>
+                </div>
+                <div class="wid-container grid grid--3-cols">
+                    <div class="wid-col">
+                        <ion-icon name="color-palette" class="wid-icon margin-bottom-12"></ion-icon>
+                        <p class="wid-title">Graphic Design</p>
+                        <p class="wid-content">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, ut facere quaerat in omnis
+                            reiciendis beatae odit sunt voluptates nulla veniam.
+                        </p>
+                    </div>
+                    <div class="wid-col">
+                        <ion-icon name="desktop-outline" class="wid-icon margin-bottom-12"></ion-icon>
+                        <p class="wid-title">Web Design</p>
+                        <p class="wid-content">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, ut facere quaerat in omnis
+                            reiciendis beatae odit sunt voluptates nulla veniam.
+                        </p>
+                    </div>
+                    <div class="wid-col">
+                        <ion-icon name="code-working" class="wid-icon margin-bottom-12"></ion-icon>
+                        <p class="wid-title">Web Development</p>
+                        <p class="wid-content">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, ut facere quaerat in omnis
+                            reiciendis beatae odit sunt voluptates nulla veniam.
+                        </p>
+                    </div>
+                    <div class="wid-col">
+                        <ion-icon name="brush" class="wid-icon margin-bottom-12"></ion-icon>
+                        <p class="wid-title">Brand Identity</p>
+                        <p class="wid-content">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, ut facere quaerat in omnis
+                            reiciendis beatae odit sunt voluptates nulla veniam.
+                        </p>
+                    </div>
+                    <div class="wid-col">
+                        <ion-icon name="bar-chart" class="wid-icon margin-bottom-12"></ion-icon>
+                        <p class="wid-title">Business Analysis</p>
+                        <p class="wid-content">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, ut facere quaerat in omnis
+                            reiciendis beatae odit sunt voluptates nulla veniam.
+                        </p>
+                    </div>
+                    <div class="wid-col">
+                        <ion-icon name="notifications" class="wid-icon margin-bottom-12"></ion-icon>
+                        <p class="wid-title">Digital Marketing</p>
+                        <p class="wid-content">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, ut facere quaerat in omnis
+                            reiciendis beatae odit sunt voluptates nulla veniam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- RESUME -->
+        <section class="section-resume">
+            <div class="container">
+                <div class="heading-container">
+                    <h3 class="primary-heading margin-bottom-12">Resume</h3>
+                    <h2 class="secondary-heading">A summary of My Resume</h2>
+                </div>
+                <div class="resume-container grid grid--2-cols">
+                    <div class="summary">
+                        <h4 class="sum-title">My Experience</h4>
+                        <div class="sum-box">
+                            <p class="sum-box-title margin-bottom-8">Sr. Front End Developer</p>
+                            <p class="sum-box-sub-title margin-bottom-8">Apple Inc / 2020 - Current</p>
+                            <p class="sum-box-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita
+                                praesentium enim ut magnam ratione minus suscipit nihil neque deserunt!</p>
+                        </div>
+                        <div class="sum-box">
+                            <p class="sum-box-title margin-bottom-8">Jr.Front End Developer</p>
+                            <p class="sum-box-sub-title margin-bottom-8">Dribbble Inc / 2008-2020</p>
+                            <p class="sum-box-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita
+                                praesentium enim ut magnam ratione minus suscipit nihil neque deserunt!</p>
+                        </div>
+                        <div class="sum-box">
+                            <p class="sum-box-title margin-bottom-8">HTML Developer</p>
+                            <p class="sum-box-sub-title margin-bottom-8">Adobe Inc / 2007 - 2018</p>
+                            <p class="sum-box-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita
+                                praesentium enim ut magnam ratione minus suscipit nihil neque deserunt!</p>
+                        </div>
+                    </div>
+                    <div class="summary">
+                        <h4 class="sum-title">My Education</h4>
+                        <div class="sum-box">
+                            <p class="sum-box-title margin-bottom-8">Master in Computer Engineering</p>
+                            <p class="sum-box-sub-title margin-bottom-8">Harvard University / 2015-2017</p>
+                            <p class="sum-box-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita
+                                praesentium enim ut magnam ratione minus suscipit nihil neque deserunt!</p>
+                        </div>
+                        <div class="sum-box">
+                            <p class="sum-box-title margin-bottom-8">Bachelor in Computer Engineering</p>
+                            <p class="sum-box-sub-title margin-bottom-8">University of Califorinia / 2014-2015</p>
+                            <p class="sum-box-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita
+                                praesentium enim ut magnam ratione minus suscipit nihil neque deserunt!</p>
+                        </div>
+                        <div class="sum-box">
+                            <p class="sum-box-title margin-bottom-8">Computer Science</p>
+                            <p class="sum-box-sub-title margin-bottom-8">International University / 2013-2014</p>
+                            <p class="sum-box-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita
+                                praesentium enim ut magnam ratione minus suscipit nihil neque deserunt!</p>
+                        </div>
+                    </div>
+                    <h4 class="skill-title">My Skills</h4>
+                    <div class="skills-box-1">
+
+                        <div class="progress-bar-container">
+                            <div class="progress-label-container">
+                                <p class="progress-label">Web Design</p>
+                                <p class="progress-value">65%</p>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-value  pbv-web-design">&nbsp;</div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar-container">
+                            <div class="progress-label-container">
+                                <p class="progress-label">HTML/CSS</p>
+                                <p class="progress-value">95%</p>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-value pbv-html-css">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-label-container">
+                                <p class="progress-label">JavaScript</p>
+                                <p class="progress-value">80%</p>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-value  pbv-javascript">&nbsp;</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="skills-box-2">
+                        <div class="progress-bar-container">
+                            <div class="progress-label-container">
+                                <p class="progress-label">React Js</p>
+                                <p class="progress-value">70%</p>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-value pbv-react-js">&nbsp;</div>
+                            </div>
+                        </div>
+
+                        <div class="progress-bar-container">
+                            <div class="progress-label-container">
+                                <p class="progress-label">Angular Js</p>
+                                <p class="progress-value">60%</p>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-value pbv-angular-js">&nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <div class="progress-label-container">
+                                <p class="progress-label">Bootstrap</p>
+                                <p class="progress-value">99%</p>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-bar-value pbv-bootstrap">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-btn"><button class="btn">Download CV</button></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PORTFOLIO -->
+
+        <section class="section-portfolio">
+            <div class="container">
+                <div class="heading-container">
+                    <h3 class="primary-heading margin-bottom-12">Portfolio</h3>
+                    <h2 class="secondary-heading">Some of my most recent projects</h2>
+                </div>
+                <div class="tabs-container">
+                    <div class="tabs">
+                        <ul>
+                            <li><a href="#" class="tab-active">All</a></li>
+                            <li><a href="#">Detailed</a></li>
+                            <li><a href="#">Mockups</a></li>
+                            <li><a href="#">YouTube Videos</a></li>
+                            <li><a href="#">Vimeo Videos</a></li>
+                        </ul>
+                    </div>
+                    <div class="tabs-content grid grid--3-cols">
+                        <div class="portfolio-cat-container">
+                            <a href="#"><img src="images/potfolio-img-1.jpg" alt="potfolio-img-1"></a>
+                            <div class="portfolio-cat-overlay">
+                                <img src="images/icon.png" alt="icon" class="pco-icon">
+                                <p class="pco-text">Mockups Design</p>
+                                <p class="pco-cat">Category</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-cat-container">
+                            <a href="#"><img src="images/potfolio-img-2.jpg" alt="potfolio-img-2"></a>
+                            <div class="portfolio-cat-overlay">
+                                <img src="images/icon.png" alt="icon" class="pco-icon">
+                                <p class="pco-text">Mockups Design</p>
+                                <p class="pco-cat">Category</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-cat-container">
+                            <a href="#"><img src="images/potfolio-img-3.jpg" alt="potfolio-img-3"></a>
+                            <div class="portfolio-cat-overlay">
+                                <img src="images/icon.png" alt="icon" class="pco-icon">
+                                <p class="pco-text">Mockups Design</p>
+                                <p class="pco-cat">Category</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-cat-container">
+                            <a href="#"><img src="images/potfolio-img-4.jpg" alt="potfolio-img-4"></a>
+                            <div class="portfolio-cat-overlay">
+                                <img src="images/icon.png" alt="icon" class="pco-icon">
+                                <p class="pco-text">Mockups Design</p>
+                                <p class="pco-cat">Category</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-cat-container">
+                            <a href="#"><img src="images/potfolio-img-5.jpg" alt="potfolio-img-5"></a>
+                            <div class="portfolio-cat-overlay">
+                                <img src="images/icon.png" alt="icon" class="pco-icon">
+                                <p class="pco-text">Mockups Design</p>
+                                <p class="pco-cat">Category</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-cat-container">
+                            <a href="#"><img src="images/potfolio-img-6.jpg" alt="potfolio-img-6"></a>
+                            <div class="portfolio-cat-overlay">
+                                <img src="images/icon.png" alt="icon" class="pco-icon">
+                                <p class="pco-text">Mockups Design</p>
+                                <p class="pco-cat">Category</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INTERESTED IN WORKING WITH ME? -->
+
+
+        <section class="section-interest">
+            <div class="container">
+                <div class="interest">
+                    <h2 class="secondary-heading">Interested in working with me?</h2>
+                    <a href="#" class="btn">Hire Me!</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- FAQ SECTION  -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="grid grid--2-cols">
+                    <div>
+                        <div class="heading-container">
+                            <h3 class="primary-heading margin-bottom-12">FAQ</h3>
+                            <h2 class="secondary-heading">Have any questions?</h2>
+                        </div>
+
+                        <div class="faq-accordion">
+                            <div class="item open">
+                                <div class="header-item">
+                                    <ion-icon name="chevron-down-outline" class="faq-icon"></ion-icon>
+
+                                    <p class="title">What is Scott?</p>
+                                </div>
+                                <div class="hidden-box">
+                                    <p>Scott (born 13 March 1994) is an Indian international cricketer who joined the
+                                        Indian national cricket team in 2017 as a Right-arm fast bowler.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="header-item">
+                                    <ion-icon name="chevron-down-outline" class="faq-icon"></ion-icon>
+                                    <p class="title">How Can I Help You?</p>
+                                </div>
+                                <div class="hidden-box">
+                                    <p>Kuldeep Yadav (born 14 December 1994) is an Indian international cricketer. He is
+                                        a bowling allrounder who bowls Left-arm Chinaman spin and is a capable lower
+                                        order batter who plays for India and for Uttar Pradesh in domestic cricket.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="header-item">
+                                    <ion-icon name="chevron-down-outline" class="faq-icon"></ion-icon>
+                                    <p class="title">Simple process of workflow?</p>
+                                </div>
+                                <div class="hidden-box">
+                                    <p>Mohammed Shami Ahmed (born 3 September 1990) is an Indian international cricketer
+                                        who plays for the Indian national cricket team in all formats of the game as a
+                                        right-arm fast bowler.</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="header-item">
+                                    <ion-icon name="chevron-down-outline" class="faq-icon"></ion-icon>
+                                    <p class="title">Is Scott a multi-purpose template?</p>
+                                </div>
+                                <div class="hidden-box">
+                                    <p>Ravichandran Ashwin (born 17 September 1986) is an Indian international cricketer
+                                        from Chennai, who plays for the India cricket team. In Indian domestic cricket
+                                        he plays for Tamil Nadu and for Rajasthan Royals in the Indian Premier League
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="header-item">
+                                    <ion-icon name="chevron-down-outline" class="faq-icon"></ion-icon>
+                                    <p class="title">Why responsive one page template?</p>
+                                </div>
+                                <div class="hidden-box">
+                                    <p>Ishan Kishan (born 18 July 1998) is an Indian international cricketer who plays
+                                        for the Indian national cricket team as a wicket-keeper batsman. He made his
+                                        international debut in March 2021 against England.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="center">
+                        <img src="images/light.jpg" alt="light" class="light-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CLIENT SPEAK SECTION  -->
+        <section class="section-client-speak">
+            <div class="container">
+                <div class="heading-container">
+                    <h3 class="primary-heading margin-bottom-12">Client Speak</h3>
+                    <h2 class="secondary-heading">What Some of my Clients Say</h2>
+                </div>
+                <div class="center speak-container">
+                    <div class="set-max-width">
+                        <blockquote class="qoute-txt">
+                            <span class="quote-icon">&#10077;</span>
+                               <p>Easy to use reasonably priced simple dummy text of the printing and typesetting industry. Quidam lisque persius intersset his et, in quot quidam possim iriure. Simply dummy text of the printing and typesetting industry."</p>
+                       </blockquote>
+                            <div class="client-profile">
+                                <img src="images/jay-shah.jpg" alt="jay shah" class="c-face">
+                                <p class="c-name">Jay Shah</p>
+                                <p class="c-company">Founder at Icomatic Pvt Ltd</p>
+                            </div>
+                           <div class="dots">
+                                <button class="active-dot">&nbsp;</button>
+                                <button>&nbsp;</button>
+                                <button>&nbsp;</button>
+                                <button>&nbsp;</button>
+                           </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+
+         <!-- GET IN TOUCH SECTION  -->
+        <section class="section-get-in-touch">
+            <div class="container grid grid--3-cols">
+                <div class="get-in-touch">
+                    <h2 class="secondary-heading">Let's get in touch</h2>
+                    <p class="git-txt">I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
+                    <h4 class="git-label-txt">Living In:</h4>
+                    <p class="git-address">30 Shacham street, Los Angeles, USA.</p>
+                    <h4 class="git-label-txt">Call:</h4>
+                    <a href="tel:(+060) 444 434 4444" class="git-tel">(+060) 444 434 4444</a>
+                    <ul class="git-social-list">
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter git-icon"></i>
+                            </a>
+                        </li>
+                       <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook git-icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin-in git-icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-google git-icon"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-dribbble git-icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="form-container">
+                    <h2 class="secondary-heading">Estimate your Projects?</h2>
+                    <form action="" class="field-container">
+                        <div>
+                            <label for="txtName" class="fc-label">What is Your Name:</label>
+                            <input type="text" class="fc-field" id="txtName">
+                        </div>
+                        <div>
+                            <label for="txtEmail" class="fc-label">Your Email Address:</label>
+                            <input type="email" class="fc-field" id="txtEmail">
+                        </div>
+                        <div>
+                            <label for="txtHelp" class="fc-label">How can I Help you?</label>
+                            <textarea name="" id="txtHelp" cols="30" rows="4" class="fc-field"></textarea>
+                        </div>
+                        <div>
+                            <button class="fc-btn">Send &rarr;</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright &copy; 2021 <strong class="f-name">Manish</strong>. All Right Reserved.</p>
+            <p>Designed by <strong class="f-name">Manish Bagul</strong></p>
         </div>
-    </section>
-    <section class="section-about-me">
-        <h3>About Me</h3>
-    </section>
-</main>
+    </footer>
 </body>
 
 </html>

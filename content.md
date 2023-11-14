@@ -30,3 +30,102 @@ Date of birth :
 21 October, 1984
 From:
 Mumbai, Maharashtra
+
+# What I Do?
+How I can help your next project
+
+Graphic Design 
+Web Design
+Web Development
+Brand Identity
+Business Analysis
+Digital Marketing
+
+
+
+###### Resume #####
+
+# Resume
+A summary of My Resume
+
+My Education 
+
+Master in Computer Engineering
+Harvard University / 2015-2017
+
+Bachelor in Computer Engineering
+University of Califorinia / 2014-2015
+
+Computer Science
+International University / 2013-2014
+
+My Experience 
+
+Sr. Front End Developer 
+Apple Inc / 2020 - Current
+
+Jr.Front End Developer
+Dribbble Inc / 2008-2020
+
+HTML Developer
+Adobe Inc / 2007 - 2018
+
+My Skills
+Web Design 
+React Js
+Angular Js
+HTML/CSS
+JavaScript
+Bootstrap
+
+
+Download CV
+
+All
+Detailed
+Mockups
+YouTube Videos
+Vimeo Videos
+potfolio-img-1
+
+
+
+# FAQ
+
+What is Scott?
+
+How Can I Help You?
+Simple process of workflow?
+Is Scott a multi-purpose template?
+Why responsive one page template?
+
+
+# Client Speak
+
+What Some of my Clients Say
+
+"
+Easy to use reasonably priced simple dummy text of the printing and typesetting industry. Quidam lisque persius intersset his et, in quot quidam possim iriure. Simply dummy text of the printing and typesetting industry."
+
+
+
+Jay Shah
+Founder at Icomatic Pvt Ltd
+
+# Let's get in touch
+
+I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.
+
+Living In:
+
+30 Shacham street, Los Angeles, USA.
+
+Call:
+(+060) 444 434 4444
+
+# Estimate your Projects?
+What is Your Name:
+Your Email Address:
+How can I Help you?
+
+Send 
