@@ -12,45 +12,49 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/queries.css">
     <title>Portfolio</title>
 </head>
 
 <body>
     <!-- HEADER -->
-    <header class="header">
+    <header class="header" id="home">
         <div class="container header-content">
             <a href="#" class="logo">Manish</a>
-            <nav>
-                <ul class="nav-list">
-                    <li><a href="#" class="nav-link active">Home</a></li>
-                    <li><a href="#" class="nav-link">About</a></li>
-                    <li><a href="#" class="nav-link">Downloads</a></li>
-                    <li><a href="#" class="nav-link">Resume</a></li>
-                    <li><a href="#" class="nav-link">Portfolio</a></li>
-                    <li><a href="#" class="nav-link">FAQ</a></li>
-                    <li><a href="#" class="nav-link">Client</a></li>
-                    <li><a href="#" class="nav-link">Contact</a></li>
-                </ul>
-            </nav>
-            <nav>
-                <ul class="nav-social-list">
-                    <li>
-                        <a href="#">
-                            <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <ion-icon name="logo-twitter" class="social-icon"></ion-icon>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="nav-container">
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#aboutMe" class="nav-link">About</a></li>
+                        <li><a href="#download" class="nav-link">Downloads</a></li>
+                        <li><a href="#resume" class="nav-link">Resume</a></li>
+                        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li><a href="#faq" class="nav-link">FAQ</a></li>
+                        <li><a href="#client" class="nav-link">Client</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="nav-social-list">
+                        <li>
+                            <a href="#">
+                                <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <ion-icon name="logo-twitter" class="social-icon"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <button class="nav-mobile-btn"><ion-icon name="menu-outline" class="nav-menu"></ion-icon></button>
         </div>
     </header>
     <main>
@@ -70,15 +74,15 @@
             </div>
         </section>
         <!-- ABOUT ME -->
-        <section class="section-about-me">
+        <section class="section-about-me" id="aboutMe">
             <div class="container">
                 <div class="heading-container">
-                    <h3 class="primary-heading margin-bottom-12">About Me</h3>
+                    <h3 class="primary-heading margin-bottom-16">About Me</h3>
                     <h2 class="secondary-heading">Know Me More</h2>
                 </div>
                 <div class="about-me-content">
                     <div class="am-grid-col1">
-                        <p class="am-intro margin-bottom-12">
+                        <p class="am-intro margin-bottom-16">
                             Hi, I'm
                             <strong class="am-name">Manish Bagul</strong>
                         </p>
@@ -93,15 +97,15 @@
                         <p class="am-years">12</p>
                         <p class="am-experiance">Years of <strong>Experiance</strong></p>
                     </div>
-                    <div>
+                    <div class="am-grid-col3">
                         <p class="am-col1 margin-bottom-8">Name:</p>
                         <p class="am-col2">Manish Bagul</p>
                     </div>
-                    <div>
+                    <div class="am-grid-col4">
                         <p class="am-col1 margin-bottom-8">Email:</p>
                         <p class="am-col2">manishwebdev@gmail.com</p>
                     </div>
-                    <div>
+                    <div class="am-grid-col5">
                         <p class="am-col1 margin-bottom-8">Date of birth:</p>
                         <p class="am-col2">21 October, 1984</p>
                     </div>
@@ -113,16 +117,16 @@
             </div>
         </section>
         <!-- What I Do? -->
-        <section class="section-what-i-do">
+        <section class="section-what-i-do" id="download">
             <div class="container">
 
                 <div class="heading-container">
-                    <h3 class="primary-heading margin-bottom-12">What I Do?</h3>
+                    <h3 class="primary-heading margin-bottom-16">What I Do?</h3>
                     <h2 class="secondary-heading">How I can help your next project</h2>
                 </div>
-                <div class="wid-container grid grid--3-cols">
+                <div class="wid-container grid grid--3-cols md-grid md-grid--2-cols xm-grid--1-cols">
                     <div class="wid-col">
-                        <ion-icon name="color-palette" class="wid-icon margin-bottom-12"></ion-icon>
+                        <ion-icon name="color-palette" class="wid-icon margin-bottom-16"></ion-icon>
                         <p class="wid-title">Graphic Design</p>
                         <p class="wid-content">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, ut facere quaerat in omnis
@@ -130,7 +134,7 @@
                         </p>
                     </div>
                     <div class="wid-col">
-                        <ion-icon name="desktop-outline" class="wid-icon margin-bottom-12"></ion-icon>
+                        <ion-icon name="desktop-outline" class="wid-icon margin-bottom-16"></ion-icon>
                         <p class="wid-title">Web Design</p>
                         <p class="wid-content">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, ut facere quaerat in omnis
@@ -138,7 +142,7 @@
                         </p>
                     </div>
                     <div class="wid-col">
-                        <ion-icon name="code-working" class="wid-icon margin-bottom-12"></ion-icon>
+                        <ion-icon name="code-working" class="wid-icon margin-bottom-16"></ion-icon>
                         <p class="wid-title">Web Development</p>
                         <p class="wid-content">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, ut facere quaerat in omnis
@@ -146,7 +150,7 @@
                         </p>
                     </div>
                     <div class="wid-col">
-                        <ion-icon name="brush" class="wid-icon margin-bottom-12"></ion-icon>
+                        <ion-icon name="brush" class="wid-icon margin-bottom-16"></ion-icon>
                         <p class="wid-title">Brand Identity</p>
                         <p class="wid-content">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, ut facere quaerat in omnis
@@ -154,7 +158,7 @@
                         </p>
                     </div>
                     <div class="wid-col">
-                        <ion-icon name="bar-chart" class="wid-icon margin-bottom-12"></ion-icon>
+                        <ion-icon name="bar-chart" class="wid-icon margin-bottom-16"></ion-icon>
                         <p class="wid-title">Business Analysis</p>
                         <p class="wid-content">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, ut facere quaerat in omnis
@@ -162,7 +166,7 @@
                         </p>
                     </div>
                     <div class="wid-col">
-                        <ion-icon name="notifications" class="wid-icon margin-bottom-12"></ion-icon>
+                        <ion-icon name="notifications" class="wid-icon margin-bottom-16"></ion-icon>
                         <p class="wid-title">Digital Marketing</p>
                         <p class="wid-content">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, ut facere quaerat in omnis
@@ -173,13 +177,13 @@
             </div>
         </section>
         <!-- RESUME -->
-        <section class="section-resume">
+        <section class="section-resume" id="resume">
             <div class="container">
                 <div class="heading-container">
-                    <h3 class="primary-heading margin-bottom-12">Resume</h3>
+                    <h3 class="primary-heading margin-bottom-16">Resume</h3>
                     <h2 class="secondary-heading">A summary of My Resume</h2>
                 </div>
-                <div class="resume-container grid grid--2-cols">
+                <div class="resume-container grid grid--2-cols sm-grid--1-cols">
                     <div class="summary">
                         <h4 class="sum-title">My Experience</h4>
                         <div class="sum-box">
@@ -294,13 +298,23 @@
 
         <!-- PORTFOLIO -->
 
-        <section class="section-portfolio">
+        <section class="section-portfolio" id="portfolio">
             <div class="container">
                 <div class="heading-container">
-                    <h3 class="primary-heading margin-bottom-12">Portfolio</h3>
+                    <h3 class="primary-heading margin-bottom-16">Portfolio</h3>
                     <h2 class="secondary-heading">Some of my most recent projects</h2>
                 </div>
+                <div class="m-filter-container">
+                    <select name="" id="" class="m-filter">
+                        <option value="All">All</option>
+                        <option value="Detailed">Detailed</option>
+                        <option value="Mockups">Mockups</option>
+                        <option value="YouTube">YouTube Videos</option>
+                        <option value="Vimeo">Vimeo Videos</option>
+                    </select>
+                </div>
                 <div class="tabs-container">
+                    
                     <div class="tabs">
                         <ul>
                             <li><a href="#" class="tab-active">All</a></li>
@@ -310,7 +324,7 @@
                             <li><a href="#">Vimeo Videos</a></li>
                         </ul>
                     </div>
-                    <div class="tabs-content grid grid--3-cols">
+                    <div class="tabs-content grid grid--3-cols sm-grid--2-cols">
                         <div class="portfolio-cat-container">
                             <a href="#"><img src="images/potfolio-img-1.jpg" alt="potfolio-img-1"></a>
                             <div class="portfolio-cat-overlay">
@@ -379,12 +393,12 @@
         </section>
 
         <!-- FAQ SECTION  -->
-        <section class="faq-section">
+        <section class="faq-section" id="faq">
             <div class="container">
-                <div class="grid grid--2-cols">
-                    <div>
+                <div class="grid md-grid grid--2-cols sm-grid--1-cols ">
+                    <div class="md-padding-left-16 grid-col-1-1">
                         <div class="heading-container">
-                            <h3 class="primary-heading margin-bottom-12">FAQ</h3>
+                            <h3 class="primary-heading margin-bottom-16">FAQ</h3>
                             <h2 class="secondary-heading">Have any questions?</h2>
                         </div>
 
@@ -448,7 +462,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="center">
+                    <div class="center sm-none">
                         <img src="images/light.jpg" alt="light" class="light-img">
                     </div>
                 </div>
@@ -456,10 +470,10 @@
         </section>
 
         <!-- CLIENT SPEAK SECTION  -->
-        <section class="section-client-speak">
+        <section class="section-client-speak" id="client">
             <div class="container">
                 <div class="heading-container">
-                    <h3 class="primary-heading margin-bottom-12">Client Speak</h3>
+                    <h3 class="primary-heading margin-bottom-16">Client Speak</h3>
                     <h2 class="secondary-heading">What Some of my Clients Say</h2>
                 </div>
                 <div class="center speak-container">
@@ -486,8 +500,8 @@
         </section>
 
          <!-- GET IN TOUCH SECTION  -->
-        <section class="section-get-in-touch">
-            <div class="container grid grid--3-cols">
+        <section class="section-get-in-touch" id="contact">
+            <div class="container grid grid--3-cols md-grid md-grid--2-cols sm-grid--1-cols">
                 <div class="get-in-touch">
                     <h2 class="secondary-heading">Let's get in touch</h2>
                     <p class="git-txt">I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>

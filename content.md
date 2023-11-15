@@ -129,3 +129,10 @@ Your Email Address:
 How can I Help you?
 
 Send 
+
+download
+resume
+portfolio
+faq
+client
+contact
