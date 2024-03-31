@@ -31,33 +31,25 @@
     <!-- HEADER -->
     <header class="header" id="home">
       <div class="container header-content">
-        <a href="index.html" class="logo">Manish</a>
+        <a href="#" class="logo">Manish</a>
         <div class="nav-container">
           <nav>
             <ul class="nav-list">
-              <li class="list active">
-                <a href="#aboutMe" class="nav-link">About</a>
-              </li>
-              <li class="list">
-                <a href="index.html#projects" class="nav-link">Projects</a>
-              </li>
-              <li class="list">
-                <a href="index.html#resume" class="nav-link">Resume</a>
-              </li>
+              <li><a href="#aboutMe" class="nav-link">About</a></li>
+              <li><a href="#resume" class="nav-link">Resume</a></li>
+              <li><a href="#projects" class="nav-link">Projects</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
           </nav>
           <nav>
             <ul class="nav-social-list">
               <li>
-                <a href="mailto:mysmartdesignworld@gmail.com" target="_blank">
+                <a href="#">
                   <ion-icon name="mail" class="social-icon"></ion-icon>
                 </a>
               </li>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/manish-bagul/"
-                  target="_blank"
-                >
+                <a href="#">
                   <ion-icon name="logo-linkedin" class="social-icon"></ion-icon>
                 </a>
               </li>
@@ -70,8 +62,7 @@
       </div>
     </header>
     <main>
-      <!-- MORE ABOUT ME -->
-
+      <!-- ABOUT ME -->
       <section class="section-about-me" id="aboutMe">
         <div class="container">
           <div class="heading-container">
@@ -104,7 +95,7 @@
                 I have worked at Cybertech for 11 years, where I have learned to
                 manage UI component libraries, create responsive websites, and
                 develop UI assets. Additionally, I have completed a Udemy course
-                online, which has helped me to improve my UI design skills by
+                online, which has helped me to improve my UX design skills by
                 working on various projects, including iOS applications, web
                 apps, responsive websites, and adding features to existing
                 platforms.
@@ -128,7 +119,7 @@
             </div>
             <div class="am-grid-col4">
               <p class="am-col1 margin-bottom-8">Email:</p>
-              <p class="am-col2">mysmartdesignworld@gmail.com</p>
+              <p class="am-col2">manishwebdev@gmail.com</p>
             </div>
             <div class="am-grid-col5">
               <p class="am-col1 margin-bottom-8">Date of birth:</p>
@@ -146,22 +137,91 @@
       </section>
 
       <!-- GET IN TOUCH SECTION  -->
+      <section class="section-get-in-touch" id="contact">
+        <div
+          class="container grid grid--3-cols md-grid md-grid--2-cols sm-grid--1-cols"
+        >
+          <div class="get-in-touch">
+            <h2 class="secondary-heading">Let's get in touch</h2>
+            <p class="git-txt">
+              I enjoy discussing new projects and design challenges. Please
+              share as much info, as possible so we can get the most out of our
+              first catch-up.
+            </p>
+            <h4 class="git-label-txt">Living In:</h4>
+            <p class="git-address">30 Shacham street, Los Angeles, USA.</p>
+            <h4 class="git-label-txt">Call:</h4>
+            <a href="tel:(+060) 444 434 4444" class="git-tel"
+              >(+060) 444 434 4444</a
+            >
+            <ul class="git-social-list">
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-twitter git-icon"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-facebook git-icon"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-linkedin-in git-icon"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-google git-icon"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-dribbble git-icon"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="form-container">
+            <h2 class="secondary-heading">Estimate your Projects?</h2>
+            <form action="" class="field-container">
+              <div>
+                <label for="txtName" class="fc-label">What is Your Name:</label>
+                <input type="text" class="fc-field" id="txtName" />
+              </div>
+              <div>
+                <label for="txtEmail" class="fc-label"
+                  >Your Email Address:</label
+                >
+                <input type="email" class="fc-field" id="txtEmail" />
+              </div>
+              <div>
+                <label for="txtHelp" class="fc-label"
+                  >How can I Help you?</label
+                >
+                <textarea
+                  name=""
+                  id="txtHelp"
+                  cols="30"
+                  rows="4"
+                  class="fc-field"
+                ></textarea>
+              </div>
+              <div>
+                <button class="fc-btn">Send &rarr;</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- FOOTER -->
     <footer class="footer">
       <div class="container">
-        <ul class="f-social-list">
-          <li>
-            <a href="mailto:mysmartdesignworld@gmail.com" target="_blank">
-              <ion-icon name="mail" class="social-icon"></ion-icon>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/manish-bagul/" target="_blank">
-              <ion-icon name="logo-linkedin" class="social-icon"></ion-icon>
-            </a>
-          </li>
-        </ul>
+        <p>
+          Copyright &copy; 2021 <strong class="f-name">Manish</strong>. All
+          Right Reserved.
+        </p>
         <p>Designed by <strong class="f-name">Manish Bagul</strong></p>
       </div>
     </footer>
